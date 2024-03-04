@@ -1,0 +1,20 @@
+.text-secondary{
+    padding-top: 20px;
+}
+.mb-5{
+    padding-top:25px;
+}
+.card{
+    margin-bottom: 15px;
+    margin-left: 215px;
+    width:65%;
+}
+.content-section{
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+@media (max-width: 760px) {
+    .card{
+        margin-left:100px
+    }
+  }

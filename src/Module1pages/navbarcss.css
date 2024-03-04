@@ -1,0 +1,49 @@
+
+.nav-link[data-toggle].collapsed:after {
+    content: " ▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: " ▴";
+}
+
+@media (min-width: 768px){
+.row-cols-md-2>* {
+    flex: 0 0 auto;
+    width: 45%;
+}
+}
+
+.card img{
+   max-width: 329.47px;
+   max-height:237.99px;
+}
+
+/* #body-cont{
+    background-color: ;
+} */
+.item{
+    padding-top: 35px;
+}
+
+.logo-item{
+    padding-left: 15px;
+}
+
+.nav{
+    width: 250px;
+}
+
+#sidebar{
+    width:19%;
+    background-color: #ffff;
+    
+}
+#body-cont{
+    background-color: #61738f;
+    padding:0;
+    width:1143px;
+    border-radius: 20px;
+}
+.col {
+    padding-top: 26px;
+} 
